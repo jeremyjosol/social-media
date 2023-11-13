@@ -86,3 +86,17 @@ code {
   text-decoration: none;
   color: grey;
 }
+
+.user-header {
+}
+
+.user .banner {
+  background-color: rgb(81, 166, 251);
+  width: 348px;
+  height: 150px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+}

@@ -5,7 +5,9 @@ function User() {
   return (
     <React.Fragment>
       <div className="user">
-      <div className="user-header">
+        <div className="banner">
+        </div>
+        <div className="user-header">
           <img src={profilePicture} alt="PFP" className="profile-picture" />
           <h2 className="username">Jeremy Josol</h2>
         </div>
