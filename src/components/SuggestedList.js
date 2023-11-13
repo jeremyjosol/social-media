@@ -6,15 +6,15 @@ const SuggestedList = () => {
   const mainFeedList = [
     {
       profilePicture: 'pfp',
-      name: 'Suggested User 1',
+      name: 'Sasquatch',
     },
     {
       profilePicture: 'pfp2',
-      name: 'Suggested User 2',
+      name: 'Mocha Joe',
     },
     {
       profilePicture: 'pfp3',
-      name: 'Suggested User 3',
+      name: 'Code Noob',
     }
   ];
 

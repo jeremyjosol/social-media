@@ -8,7 +8,7 @@ const Suggested = (props) => {
       <div className="suggested-user">
         <img src={profilePicture} alt="PFP" className="suggested-pfp" />
         <div className="suggested-content">
-          <h4>{props.name}</h4>
+          <h5>{props.name}</h5>
           <div className="follow">
             <button className="btn btn-primary follow" type="button">Follow</button>
           </div>

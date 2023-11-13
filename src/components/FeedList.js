@@ -6,18 +6,18 @@ const FeedList = () => {
   const mainFeedList = [
     {
       profilePicture: 'pfp',
-      name: 'User 1',
-      post: 'post 1',
+      name: 'Larry David',
+      post: "I'm not a stop and chat kind of guy.",
     },
     {
       profilePicture: 'pfp2',
-      name: 'User 2',
-      post: 'post 2',
+      name: 'Marty Funkhouser',
+      post: "RIP Dad. I'm an orphan now.",
     },
     {
       profilePicture: 'pfp3',
-      name: 'User 3',
-      post: 'post 3',
+      name: 'J.B. Smoove',
+      post: 'A text is the lowest form of communication.',
     }
   ];
 

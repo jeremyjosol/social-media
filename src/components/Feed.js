@@ -10,7 +10,7 @@ const Feed = (props) => {
       <div className="user-post">
         <img src={profilePicture} alt="PFP" className="feed-pfp" />
         <div className="feed-content">
-          <h3>{props.name}</h3>
+          <h4>{props.name}</h4>
           <p>{props.post}</p>
         </div>
       </div>

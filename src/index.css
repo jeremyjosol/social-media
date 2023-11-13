@@ -140,10 +140,11 @@ code {
   padding: 0;
   border: 2px solid rgb(190, 190, 190);
   border-bottom: none;
-  width: 80%;
+  width: 1000px;
   height: 100%;
   position: relative;
-  flex: 5;
+  flex: 6;
+  overflow-y: auto;
 }
 
 .user-post {
@@ -154,8 +155,8 @@ code {
 .feed-pfp, .suggested-pfp {
   background-color: rgb(163, 218, 160);
   border-radius: 50px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   margin-left: 20px;
   margin-bottom: 25px;
   display: inline-block;
@@ -201,17 +202,17 @@ code {
   margin-top: 10px;
   height: 100%;
   width: 500px;
-  flex: 4;
-  padding-bottom: 50px;
+  flex: 5;
+  padding-bottom: px;
 }
 
 .suggested-pfp {
   background-color: rgb(255, 255, 174);
-  margin-top: 50px;
+  margin-top: 48.5px;
 }
 
 .suggested-content {
-  margin-top: 45px;
+  margin-top: 2px;
   margin-right: 40px;
 }
 
