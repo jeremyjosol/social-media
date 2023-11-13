@@ -45,7 +45,7 @@ code {
 
 .navbar a {
   text-decoration: none;
-  color: #000; 
+  color: grey;
 }
 
 .form-control {
@@ -67,7 +67,7 @@ code {
   list-style: none;
   padding: 0;
   padding-bottom: 20px;
-  border: 2px solid grey;
+  border: 2px solid rgb(190, 190, 190);
   width: 350px;
   height: 250px;
 }
@@ -84,5 +84,5 @@ code {
 
 .user a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
