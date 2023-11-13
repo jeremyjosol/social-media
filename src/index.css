@@ -69,15 +69,14 @@ code {
   padding-bottom: 20px;
   border: 2px solid rgb(190, 190, 190);
   width: 350px;
-  height: 250px;
+  height: 280px;
+  position: relative;
 }
 
 .user li {
   display: inline-block;
-  padding-top: 5px;
-  padding-bottom: 5px;
   text-align: center;
-  margin-top: 175px;
+  margin-top: 50px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -88,15 +87,31 @@ code {
 }
 
 .user-header {
+  position: absolute;
+  top: 50px; 
+  left: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(35%);
+}
+
+.username {
+  margin-top: 77px;
+  margin-left: 5px;
+  color: rgb(63, 63, 63);
 }
 
 .user .banner {
   background-color: rgb(81, 166, 251);
+  border-bottom: 2px solid rgb(190, 190, 190);
   width: 348px;
-  height: 150px;
+  height: 175px;
 }
 
 .profile-picture {
   width: 100px;
   height: 100px;
+  background-color: rgb(81, 166, 251);
+  border-radius: 50px;
 }

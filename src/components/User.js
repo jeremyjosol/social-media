@@ -17,6 +17,7 @@ function User() {
           <li className="info-followers"><a href="/followers" className="info-link">FOLLOWERS</a></li>
         </ul>
       </div>
+      
     </React.Fragment>
   );
 }
