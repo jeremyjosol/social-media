@@ -11,7 +11,7 @@ const Feed = (props) => {
         <img src={profilePicture} alt="PFP" className="feed-pfp" />
         <div className="feed-content">
           <h3>{props.name}</h3>
-          <p><em>{props.post}</em></p>
+          <p>{props.post}</p>
         </div>
       </div>
     </React.Fragment>

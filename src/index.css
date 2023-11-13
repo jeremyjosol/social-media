@@ -162,7 +162,7 @@ code {
 }
 
 .feed-content {
-  margin-left: 100px;
+  margin-left: 60px;
   vertical-align: middle;
   display: inline-block;
 }
@@ -170,6 +170,10 @@ code {
 .feed-post {
   background-color: rgb(166, 213, 255);
   height: 75px;
+}
+
+.form-inline .post-input {
+  width: 375px;
 }
 
 .post-input {
