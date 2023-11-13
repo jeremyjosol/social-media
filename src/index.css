@@ -115,3 +115,15 @@ code {
   background-color: rgb(81, 166, 251);
   border-radius: 50px;
 }
+
+.user-bio {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+  padding-bottom: 20px;
+  border: 2px solid rgb(190, 190, 190);
+  width: 350px;
+  height: 400px;
+  position: relative;
+}
