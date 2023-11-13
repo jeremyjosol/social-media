@@ -4,6 +4,7 @@ import User from "./User";
 import FeedList from "./FeedList";
 import Bio from "./Bio";
 import Post from "./Post";
+import SuggestedList from "./SuggestedList";
 
 function App(){
   return ( 
@@ -22,6 +23,9 @@ function App(){
             <Post />
           </div>
           <FeedList />
+        </div>
+        <div className="suggested">
+          <SuggestedList />
         </div>
       </div>
     </React.Fragment>
