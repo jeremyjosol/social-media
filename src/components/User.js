@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+function User() {
   return (
     <React.Fragment>
       <div className="user">
