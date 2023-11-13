@@ -151,7 +151,7 @@ code {
   margin-top: 25px;
 }
 
-.feed-pfp {
+.feed-pfp, .suggested-pfp {
   background-color: rgb(163, 218, 160);
   border-radius: 50px;
   width: 50px;
@@ -161,10 +161,11 @@ code {
   display: inline-block;
 }
 
-.feed-content {
+.feed-content, .suggested-content {
   margin-left: 60px;
   vertical-align: middle;
   display: inline-block;
+  color: rgb(63, 63, 63);
 }
 
 .feed-post {
@@ -201,4 +202,24 @@ code {
   height: 100%;
   width: 500px;
   flex: 4;
+  padding-bottom: 50px;
+}
+
+.suggested-pfp {
+  background-color: rgb(255, 255, 174);
+  margin-top: 50px;
+}
+
+.suggested-content {
+  margin-top: 45px;
+  margin-right: 40px;
+}
+
+.follow {
+  width: 150px;
+}
+
+.title {
+  margin-left: 20px;
+  color: rgb(63, 63, 63);
 }

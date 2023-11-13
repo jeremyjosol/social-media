@@ -6,10 +6,12 @@ const Suggested = (props) => {
   return (
     <React.Fragment>
       <div className="suggested-user">
-        <img src={profilePicture} alt="PFP" className="feed-pfp" />
+        <img src={profilePicture} alt="PFP" className="suggested-pfp" />
         <div className="suggested-content">
-          <h3>{props.name}</h3>
-          <p>{props.post}</p>
+          <h4>{props.name}</h4>
+          <div className="follow">
+            <button className="btn btn-primary follow" type="button">Follow</button>
+          </div>
         </div>
       </div>
     </React.Fragment>

@@ -25,6 +25,7 @@ function App(){
           <FeedList />
         </div>
         <div className="suggested">
+          <h3 className="title">Suggested</h3>
           <SuggestedList />
         </div>
       </div>
