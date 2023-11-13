@@ -17,6 +17,7 @@ function App(){
           </div>
         </div>
         <div className="feed">
+          
           <FeedList />
         </div>
       </div>

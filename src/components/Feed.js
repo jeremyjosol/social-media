@@ -5,6 +5,8 @@ import profilePicture from "./../img/pfp.jpg";
 const Feed = (props) => {
   return (
     <React.Fragment>
+      <div className="post">
+      </div>
       <div className="user-post">
         <img src={profilePicture} alt="PFP" className="feed-pfp" />
         <div className="feed-content">
