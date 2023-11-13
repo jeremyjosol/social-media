@@ -60,6 +60,11 @@ code {
   border: 2px solid rgb(81, 166, 251);
 }
 
+.container {
+  display: flex;
+  float: left;
+}
+
 .user {
   margin-top: 10px;
   margin-left: 20px;
@@ -126,4 +131,10 @@ code {
   height: 400px;
   position: relative;
   color: rgb(63, 63, 63);
+}
+
+.feed {
+  background-color: blue;
+  width: 350px;
+  margin-left: 20px;
 }

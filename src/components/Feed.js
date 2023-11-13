@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 const Feed = (props) => {
   return (
     <React.Fragment>
-      <div className="feed-pfp">
-        {props.profilePicture}
-      </div> 
-      <h3>{props.name}</h3>
-      <p><em>{props.post}</em></p>
-      <hr/>
+        <div className="feed-pfp">
+          {props.profilePicture}
+        </div> 
+        <h3>{props.name}</h3>
+        <p><em>{props.post}</em></p>
+        <hr/>
     </React.Fragment>
   );
 }
