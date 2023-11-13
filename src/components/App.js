@@ -18,7 +18,7 @@ function App(){
           </div>
         </div>
         <div className="feed">
-          <div className="post">
+          <div className="feed-post">
             <Post />
           </div>
           <FeedList />

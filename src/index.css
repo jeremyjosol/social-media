@@ -152,6 +152,8 @@ code {
 }
 
 .feed-pfp {
+  background-color: rgb(149, 244, 149);
+  border-radius: 50px;
   width: 50px;
   height: 50px;
   margin-left: 20px;
@@ -163,4 +165,23 @@ code {
   margin-left: 100px;
   vertical-align: middle;
   display: inline-block;
+}
+
+.feed-post {
+  background-color: rgb(166, 213, 255);
+  height: 75px;
+}
+
+.post-input {
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 125px;
+  margin-top: 10px;
+  border-right: none;
+}
+
+.post-input-btn {
+  margin-top: 10px;
+  margin-left: -28px;
+  border-left: none;
 }
