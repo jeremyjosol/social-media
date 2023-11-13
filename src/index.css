@@ -134,15 +134,33 @@ code {
 }
 
 .feed {
-  text-align: center;
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
   list-style: none;
   padding: 0;
-  padding-bottom: 20px;
   border: 2px solid rgb(190, 190, 190);
-  width: 350px;
+  border-bottom: none;
+  width: 600px;
   height: 100%;
   position: relative;
+}
+
+.user-post {
+  border-bottom: 1px solid grey;
+  margin-top: 25px;
+}
+
+.feed-pfp {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.feed-content {
+  margin-left: 100px;
+  vertical-align: middle;
+  display: inline-block;
 }
