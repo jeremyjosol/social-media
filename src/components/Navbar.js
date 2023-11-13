@@ -5,9 +5,9 @@ function Navbar() {
     <React.Fragment>
       <div className="navbar">
         <ul className="nav">
-          <li className="nav-item"><a href="/" className="nav-link">Home</a></li>
-          <li className="nav-item"><a href="/about" className="nav-link">Notifications</a></li>
-          <li className="nav-item"><a href="/contact" className="nav-link">Messages</a></li>
+          <li className="nav-home"><a href="/" className="nav-link">Home</a></li>
+          <li className="nav-notifications"><a href="/about" className="nav-link">Notifications</a></li>
+          <li className="nav-messages"><a href="/contact" className="nav-link">Messages</a></li>
         </ul>
         <form className="form-inline">
           <div className="input-group">
