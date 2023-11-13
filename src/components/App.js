@@ -5,6 +5,7 @@ function App(){
   return ( 
     <React.Fragment>
       <Navbar />
+      <hr />
     </React.Fragment>
   );
 }
