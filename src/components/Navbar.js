@@ -9,6 +9,14 @@ function Navbar() {
           <li className="nav-item"><a href="/about" className="nav-link">Notifications</a></li>
           <li className="nav-item"><a href="/contact" className="nav-link">Messages</a></li>
         </ul>
+        <form className="form-inline">
+          <div className="input-group">
+            <input type="text" className="form-control" placeholder="Search" />
+            <div className="input-group-append">
+              <button className="btn btn-success btn-sm" type="button">Post</button>
+            </div>
+          </div>
+        </form>
       </div>
     </React.Fragment>
   );
