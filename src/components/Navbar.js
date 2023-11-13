@@ -10,12 +10,10 @@ function Navbar() {
           <li className="nav-messages"><a href="/contact" className="nav-link">Messages</a></li>
         </ul>
         <form className="form-inline">
-          <div className="input-group">
             <input type="text" className="form-control" placeholder="Search" />
             <div className="input-group-append">
-              <button className="btn btn-success btn-sm" type="button">Post</button>
+              <button className="btn btn-outline-primary post" type="button">Post</button>
             </div>
-          </div>
         </form>
       </div>
     </React.Fragment>
