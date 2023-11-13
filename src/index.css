@@ -62,12 +62,11 @@ code {
 
 .container {
   display: flex;
-  float: left;
 }
 
 .user {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: -132px;
   margin-right: 20px;
   list-style: none;
   padding: 0;
@@ -123,7 +122,7 @@ code {
 
 .user-bio {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: -132px;
   margin-right: 20px;
   padding: 25px 25px 25px 25px;
   border: 2px solid rgb(190, 190, 190);
@@ -141,9 +140,10 @@ code {
   padding: 0;
   border: 2px solid rgb(190, 190, 190);
   border-bottom: none;
-  width: 600px;
+  width: 80%;
   height: 100%;
   position: relative;
+  flex: 5;
 }
 
 .user-post {
@@ -169,17 +169,18 @@ code {
 
 .feed-post {
   background-color: rgb(166, 213, 255);
-  height: 75px;
+  height: 90px;
+  padding-top: 10px;
 }
 
 .form-inline .post-input {
-  width: 375px;
+  width: 350px;
+  margin-left: 20px;
 }
 
 .post-input {
   height: 50px;
   border-radius: 10px;
-  margin-left: 125px;
   margin-top: 10px;
   border-right: none;
 }
@@ -192,4 +193,12 @@ code {
 
 .post {
   margin-left: -15px;
+}
+
+.suggested {
+  border: 2px solid rgb(190, 190, 190);
+  margin-top: 10px;
+  height: 100%;
+  width: 500px;
+  flex: 4;
 }
