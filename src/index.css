@@ -134,7 +134,15 @@ code {
 }
 
 .feed {
-  background-color: blue;
-  width: 350px;
+  text-align: center;
+  margin-top: 10px;
   margin-left: 20px;
+  margin-right: 20px;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 20px;
+  border: 2px solid rgb(190, 190, 190);
+  width: 350px;
+  height: 100%;
+  position: relative;
 }

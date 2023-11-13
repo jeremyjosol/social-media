@@ -23,7 +23,6 @@ const FeedList = () => {
 
   return (
     <React.Fragment>
-      <hr/>
       {mainFeedList.map((feed, index) =>
         <Feed
           profilePicture={feed.profilePicture}

@@ -8,7 +8,7 @@ function App(){
   return ( 
     <React.Fragment>
       <Navbar />
-      <hr />
+      {/* <hr /> */}
       <div className="container">
         <div className="user-container">
           <User />
@@ -16,7 +16,9 @@ function App(){
             <Bio />
           </div>
         </div>
-        <FeedList />
+        <div className="feed">
+          <FeedList />
+        </div>
       </div>
     </React.Fragment>
   );
