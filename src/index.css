@@ -120,10 +120,10 @@ code {
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 0;
-  padding-bottom: 20px;
+  padding: 25px 25px 25px 25px;
   border: 2px solid rgb(190, 190, 190);
   width: 350px;
   height: 400px;
   position: relative;
+  color: rgb(63, 63, 63);
 }
