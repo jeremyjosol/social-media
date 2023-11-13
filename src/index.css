@@ -14,7 +14,7 @@ code {
 
 .navbar {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 22px;
   margin-right: 20px;
   list-style: none;
   padding: 0;
@@ -152,7 +152,7 @@ code {
 }
 
 .feed-pfp {
-  background-color: rgb(149, 244, 149);
+  background-color: rgb(163, 218, 160);
   border-radius: 50px;
   width: 50px;
   height: 50px;
