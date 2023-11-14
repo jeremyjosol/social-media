@@ -1,8 +1,8 @@
 # Social Media
 
-## Available Scripts
+A mock social media web application.
 
-In the project directory, you can run:
+<img src="./src/img/social-media.jpg">
 
 ### `npm start`
 
