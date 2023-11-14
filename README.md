@@ -25,7 +25,7 @@ A mock social media web application built with React.
     ```
 2. After successfully cloning down the repository, navigate to the **'social-media'** directory:
       ```
-       cd social-media
+       $ cd social-media
       ```
 3. Before you can use or deploy the project, make sure to install its dependencies. Run the following command in your terminal:
 
@@ -35,7 +35,7 @@ A mock social media web application built with React.
 
 4. Once its dependencies are installed, you're ready to perform these available options:
     
-### `npm start`
+### `$ npm start`
 
 > Runs the app in the development mode. 
 
@@ -43,13 +43,13 @@ A mock social media web application built with React.
 
 > * The page will reload when you make changes. You may also see any lint errors in the console.
 
-### `npm test`
+### `$ npm test`
 
 > Launches the test runner in the interactive watch mode.
 
 > * See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `$ npm run build`
 
 > Builds the app for production to the `build` folder.
 
@@ -61,7 +61,7 @@ _Your app is ready to be deployed!_
 
 > * See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `$ npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
