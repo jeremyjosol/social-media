@@ -131,10 +131,10 @@ code {
 }
 
 .user-bio {
-  margin-top: 2px;
+  margin-top: 10px;
   margin-left: -132px;
   margin-right: 20px;
-  padding: 25px 25px 25px 25px;
+  padding: 18px 25px 75px 25px;
   border: 2px solid rgb(190, 190, 190);
   width: 350px;
   height: 325px;
